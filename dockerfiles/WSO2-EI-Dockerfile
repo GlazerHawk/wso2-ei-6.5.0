@@ -1,4 +1,4 @@
-FROM selflearning/wso2-ei-6.5.0:v1 
+FROM glazerhawk/wso2-ei-6.5.0:v1 
 
 MAINTAINER GlazerHawk <mayk.hsmdeveloper@gmail.com>
 
