@@ -1,0 +1,11 @@
+FROM selflearning/wso2-ei-6.5.0:v1 
+
+MAINTAINER GlazerHawk <mayk.hsmdeveloper@gmail.com>
+
+RUN echo $PWD
+RUN java -version 
+RUN echo $JAVA_HOME
+
+EXPOSE 9443
+
+ENTRYPOINT ["/WSO2/EI/6.5.0/bin/integrator.sh"]
