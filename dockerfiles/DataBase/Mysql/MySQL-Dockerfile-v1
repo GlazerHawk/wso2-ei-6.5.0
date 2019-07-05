@@ -1,0 +1,9 @@
+FROM mysql
+
+MAINTAINER GlazerHawk <mayk.hsmdevelper@gmail.com>
+
+ENV MYSQL_ROOT_PASSWORD secretadmin
+COPY ./dependenciesDB/ /docker-entrypoint-initdb.d/
+
+EXPOSE 3306
+
