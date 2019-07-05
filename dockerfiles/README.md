@@ -6,8 +6,8 @@ This project is an isolated part of a bigger project to learn Wso2 EI 6.5.0.
 In folder dockerfiles there is an Dockerfile that generates an docker image that has an Wso2 EI environment inside it.
 
 ## Getting Started
-You can clone this repository to you local and docker run WSO2-EI-Dockerfile to generate a docker image
-or you can pull it directly from dockerhub [docker push glazerhawk/wso2-ei-6.5.0:tagname](https://cloud.docker.com/u/glazerhawk/repository/docker/glazerhawk/wso2-ei-6.5.0)
+You can clone this repository to your local and docker run WSO2-EI-Dockerfile to generate a docker image
+or you can pull it directly from dockerhub [docker push glazerhawk/wso2-ei-6.5.0:tagname](https://cloud.docker.com/u/glazerhawk/repository/docker/glazerhawk/wso2-ei-6.5.0).
 
 ### Dependencieso
 To run a dockerfile you only need Docker so:
